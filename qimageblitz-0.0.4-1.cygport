@@ -1,0 +1,13 @@
+inherit qt4-cmake
+
+DESCRIPTION="Qt4 image effect library"
+HOMEPAGE="http://www.kde.org/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
+
+abi=4
+PKG_NAMES="${PN} lib${PN}${abi} lib${PN}-devel"
+PKG_HINTS="src lib devel"
+PKG_CONTENTS[0]=	# empty
+PKG_CONTENTS[1]="usr/bin/cyg${PN}-${abi}.dll usr/share/doc/"
+PKG_CONTENTS[2]="usr/include/ usr/lib/"
+PKG_IGNORE="usr/bin/blitztest.exe"

@@ -1,0 +1,69 @@
+qimageblitz
+------------------------------------------
+Blitz is an interm image effect library that people can use until KDE4.1 
+is released. KImageEffect, the old image effect class is being dropped 
+for KDE4.0 and the replacement, Quasar, won't be ready until KDE4.1. 
+Blitz gives people something to use in the meantime.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libQtCore4-4.4.0-1
+  libQtGui4-4.4.0-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080523-2
+  cmake-2.4.8-3
+  cygport-0.3.13-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  make-3.81-1
+  pkg-config-0.23a-2
+
+Canonical website:
+  http://www.kde.org/
+
+Canonical download:
+  http://downloads.sourceforge.net/qimageblitz/
+
+-------------------------------------------
+
+Build instructions:
+  unpack qimageblitz-0.0.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./qimageblitz-0.0.4-X.cygport all
+
+This will create:
+  /usr/src/libqimageblitz-devel-0.0.4-X.tar.bz2
+  /usr/src/libqimageblitz4-0.0.4-X.tar.bz2
+  /usr/src/qimageblitz-0.0.4-X-src.tar.bz2
+  /usr/src/qimageblitz-0.0.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libqimageblitz4)
+  /usr/bin/cygqimageblitz-4.dll
+  /usr/share/doc/qimageblitz-0.0.4/COPYING
+  /usr/share/doc/qimageblitz-0.0.4/ChangeLog
+
+(libqimageblitz-devel)
+  /usr/include/qimageblitz/blitzcpu.h
+  /usr/include/qimageblitz/qimageblitz.h
+  /usr/include/qimageblitz/qimageblitz_export.h
+  /usr/lib/libqimageblitz.dll.a
+  /usr/lib/pkgconfig/qimageblitz.pc
+
+------------------
+
+Port Notes:
+
+----- version 0.0.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
