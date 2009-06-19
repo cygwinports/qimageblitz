@@ -1,0 +1,11 @@
+inherit qt4-cmake
+
+DESCRIPTION="Qt4 image effect library"
+HOMEPAGE="http://www.kde.org/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
+PATCH_URI="0.0.4-asm.patch"
+
+PKG_NAMES="${PN} lib${PN}4 lib${PN}-devel"
+libqimageblitz4_CONTENTS="usr/bin/cyg${PN}-4.dll usr/share/doc/"
+libqimageblitz_devel_CONTENTS="usr/include/ usr/lib/"
+PKG_IGNORE="usr/bin/blitztest.exe"

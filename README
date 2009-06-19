@@ -6,19 +6,21 @@ for KDE4.0 and the replacement, Quasar, won't be ready until KDE4.1.
 Blitz gives people something to use in the meantime.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libQtCore4-4.4.0-1
-  libQtGui4-4.4.0-1
+  cygwin-1.7.0-49
+  libgcc1-4.3.2-2
+  libQtCore4-4.5.1-1
+  libQtGui4-4.5.1-1
+  libstdc++6-4.3.2-2
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080523-2
-  cmake-2.4.8-3
-  cygport-0.3.13-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  make-3.81-1
-  pkg-config-0.23a-2
+  binutils-20080624-2
+  cmake-2.6.4-10
+  cygport-0.9.7-1
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  make-3.81-2
+  pkg-config-0.23b-10
 
 Canonical website:
   http://www.kde.org/
@@ -47,8 +49,8 @@ Files included in the binary packages:
 
 (libqimageblitz4)
   /usr/bin/cygqimageblitz-4.dll
-  /usr/share/doc/qimageblitz-0.0.4/COPYING
-  /usr/share/doc/qimageblitz-0.0.4/ChangeLog
+  /usr/share/doc/qimageblitz/COPYING
+  /usr/share/doc/qimageblitz/ChangeLog
 
 (libqimageblitz-devel)
   /usr/include/qimageblitz/blitzcpu.h
@@ -61,8 +63,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 0.0.4-1 -----
-Initial release for Cygwin.
+----- version 0.0.4-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

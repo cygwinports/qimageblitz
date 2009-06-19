@@ -1,5 +1,7 @@
-category: _obsolete
-sdesc: "Qt4 image effect library (source)"
+category: KDE
+requires: cygwin libgcc1 libQtCore4 libQtGui4 libstdc++6
+external-source: qimageblitz
+sdesc: "Qt4 image effect library (runtime)"
 ldesc: "Blitz is an interm image effect library that people can use 
 until KDE4.1 is released. KImageEffect, the old image effect class is 
 being dropped for KDE4.0 and the replacement, Quasar, won't be ready 
