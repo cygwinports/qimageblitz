@@ -1,5 +1,5 @@
 category: KDE
-requires: cygwin libqimageblitz4 libQtCore4-devel libQtGui4-devel libstdc++6-devel
+requires: libqimageblitz4 libQtCore4-devel libQtGui4-devel libstdc++6-devel
 external-source: qimageblitz
 sdesc: "Qt4 image effect library (libdevel)"
 ldesc: "Blitz is an interm image effect library that people can use 
