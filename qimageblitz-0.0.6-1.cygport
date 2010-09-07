@@ -2,7 +2,7 @@ inherit qt4-cmake
 
 DESCRIPTION="Qt4 image effect library"
 HOMEPAGE="http://www.kde.org/"
-SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
+SRC_URI="mirror://kde/stable/${PN}/${P}.tar.bz2"
 PATCH_URI="0.0.4-asm.patch"
 
 PKG_NAMES="${PN} lib${PN}4 lib${PN}-devel"
