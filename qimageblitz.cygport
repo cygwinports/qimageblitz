@@ -1,0 +1,17 @@
+inherit qt4-cmake
+
+NAME="qimageblitz"
+VERSION=0.0.6
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="Qt4 image effect library"
+DESCRIPTION="Blitz is an interm image effect library that people can use in
+KDE4 programs in place of the KDE3 KImageEffect class."
+HOMEPAGE="http://www.kde.org/"
+SRC_URI="mirror://kde/stable/qimageblitz/${NAME}-${VERSION}.tar.bz2"
+PATCH_URI="0.0.4-asm.patch"
+
+PKG_NAMES="lib${NAME}4 lib${NAME}-devel"
+libqimageblitz4_CONTENTS="usr/bin/cyg${NAME}-4.dll usr/share/doc/"
+libqimageblitz_devel_CONTENTS="usr/include/ usr/lib/"
+PKG_IGNORE="usr/bin/blitztest.exe"
